@@ -21,29 +21,5 @@ Através do método `assertAll`, o projeto implementa "Soft Assertions". Diferen
 ### 4. Tolerância em Ponto Flutuante (Delta)
 Devido à forma como os processadores lidam com números decimais (`double`), pequenos erros de arredondamento podem ocorrer. Foi utilizado um **delta de 0.001** no teste de cálculo para garantir que o teste valide a lógica correta e não falhe por imprecisões irrelevantes de hardware.
 
-## 🚀 Como Executar o Projeto
-
-1.  **Via Terminal:**
-    ```bash
-    # Para compilar o projeto
-    mvn compile
-
-    # Para executar a bateria de testes
-    mvn test
-    ```
-
-2.  **Via IDE (IntelliJ/VS Code/Eclipse):**
-    * Abra a classe `CalcularIMCTest` localizada em `src/test/java`.
-    * Clique com o botão direito e selecione **"Run 'CalcularIMCTest'"**.
-
-## 📊 Tabela de Referência Utilizada
-O projeto segue a classificação padrão de saúde:
-* **Menor que 18,5**: Magreza
-* **18,5 a 24,9**: Normal
-* **25,0 a 29,9**: Sobrepeso
-* **30,0 a 34,9**: Obesidade grau I
-* **35,0 a 39,9**: Obesidade grau II
-* **Maior que 40,0**: Obesidade grau III
-
 ---
 **Projeto Académico - UERJ 2026**
